@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Portfolio of Dr Ping-Chen Tsai">
+    <title>Dr Ping-Chen Tsai | Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Dr Ping-Chen Tsai</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about-wrapper">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Dr Ping-Chen Tsai" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Pic'">
+            </div>
+            <div class="about-text">
+                <h1>Hello, I'm Dr Ping-Chen Tsai</h1>
+                <h2>Research Scientist</h2>
+                <p>
+                    Recently graduated dual PhD researcher from the University of Liverpool and National Tsing Hua University, 
+                    focused on neurocomputation and EEG based brain computer interfaces. Experienced in delivering end to end 
+                    research, including study design, ethics and regulatory documentation, real time EEG signal processing, 
+                    and applied machine learning, with work spanning both academic and industry settings.
+                </p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <i class="fa-solid fa-brain"></i>
+                    <h3>Neurocomputation</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fa-solid fa-signal"></i>
+                    <h3>EEG-based BCI</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fa-solid fa-wave-square"></i>
+                    <h3>Real-time Signal Processing</h3>
+                </div>
+                <div class="interest-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>Applied Machine Learning</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="card-content">
+                        <h3>EEG-based Neurofeedback</h3>
+                        <p>Implemented a closed-loop system for real-time neurofeedback training.</p> <div class="tech-stack">
+                            <span>Python</span>
+                            <span>MNE-Python</span>
+                            <span>LSL</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-content">
+                        <h3>Hardware Prototype for Fall Prevention</h3>
+                        <p>Designed a wearable sensor array to detect pre-fall balance loss patterns.</p> <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>C++</span>
+                            <span>Sensors</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-content">
+                        <h3>Cognitive Training System</h3>
+                        <p>Developed a gamified interface for enhancing cognitive load management.</p> <div class="tech-stack">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Data Analysis</span>
+                        </div>
+                        <a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section footer-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>I am open to collaborations and research opportunities.</p>
+            <div class="social-links">
+                <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Dr Ping-Chen Tsai. All rights reserved.
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
